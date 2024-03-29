@@ -62,18 +62,50 @@
 		33E82C042BB57AE4005EB9EB /* QuoteGenerator(Combine_MVVM) */ = {
 			isa = PBXGroup;
 			children = (
+				33E82C442BB69E80005EB9EB /* Storyboards */,
+				33E82C432BB69E62005EB9EB /* NetworkCalls */,
+				33E82C422BB69E38005EB9EB /* ViewController */,
+				33E82C412BB69E01005EB9EB /* ViewModel */,
 				33E82C052BB57AE4005EB9EB /* AppDelegate.swift */,
 				33E82C072BB57AE4005EB9EB /* SceneDelegate.swift */,
-				33E82C092BB57AE4005EB9EB /* QuoteViewController.swift */,
 				33E82C0E2BB57AE5005EB9EB /* Assets.xcassets */,
 				33E82C102BB57AE5005EB9EB /* LaunchScreen.storyboard */,
 				33E82C132BB57AE5005EB9EB /* Info.plist */,
-				33E82C192BB57E8E005EB9EB /* Main.storyboard */,
-				33E82C1B2BB5802E005EB9EB /* QuoteViewModel.swift */,
-				33E82C1D2BB580B0005EB9EB /* QuoteService.swift */,
-				33E82C1F2BB580D9005EB9EB /* QuoteModel.swift */,
 			);
 			path = "QuoteGenerator(Combine_MVVM)";
+			sourceTree = "<group>";
+		};
+		33E82C412BB69E01005EB9EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				33E82C1B2BB5802E005EB9EB /* QuoteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		33E82C422BB69E38005EB9EB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				33E82C092BB57AE4005EB9EB /* QuoteViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		33E82C432BB69E62005EB9EB /* NetworkCalls */ = {
+			isa = PBXGroup;
+			children = (
+				33E82C1F2BB580D9005EB9EB /* QuoteModel.swift */,
+				33E82C1D2BB580B0005EB9EB /* QuoteService.swift */,
+			);
+			path = NetworkCalls;
+			sourceTree = "<group>";
+		};
+		33E82C442BB69E80005EB9EB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				33E82C192BB57E8E005EB9EB /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
